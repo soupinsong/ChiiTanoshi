@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "default": {
+    "color": "#ffffff",
+    "center_source": "dots",
+    "side_set": "default",
+    "side_rule": { "type": "burst" }
+  },
+  "audio_norm": { "level_max": 0.35, "low_max": 0.5 },
+  "setlist": [
+    {
+      "id": "t01",
+      "title": "예시 곡 1",
+      "artist": "예시 아티스트",
+      "bpm": 124.0,
+      "key": "8A",
+      "color": "#ff3fa4",
+      "center_source": "dots",
+      "side_set": "cute_chars",
+      "side_rule": { "type": "count", "max": 40 }
+    },
+    {
+      "id": "t02",
+      "title": "예시 곡 2",
+      "artist": "예시 아티스트",
+      "bpm": 126.0,
+      "key": "9A",
+      "color": "#3fc8ff",
+      "center_source": "dots",
+      "side_set": "default",
+      "side_rule": { "type": "scale" }
+    },
+    {
+      "id": "t03",
+      "title": "예시 곡 3",
+      "artist": "예시 아티스트",
+      "bpm": 128.0,
+      "key": "9B",
+      "color": "#ffe600",
+      "center_source": "dots",
+      "side_set": "default",
+      "side_rule": { "type": "burst" }
+    }
+  ]
+}
